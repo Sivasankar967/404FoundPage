@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+}
+ img{
+    width: 400px;  
+   
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 50px;
+}
+.main-container{
+    display: grid;
+   grid-template-columns: 50% 25%;
+   place-items: center;
+   margin-top: 70px;
+   
+    
+}
+.container h1{
+    font-size: 45px;
+
+}
+.container p{
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+.container button{
+   border-radius: 10px;
+}
+
+@media  (max-width :600px){
+   .main-container img{
+     position: absolute;
+      top: 29px;
+     width: 280px;
+     
+   }
+}
+@media  (max-width :600px){
+    .container {
+     position: absolute;
+     top:230px;
+      left: 20px;
+    }
+ }
+
+
+
