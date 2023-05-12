@@ -4,7 +4,8 @@ body{
  img{
     width: 400px;  
    
-}
+} 
+
 
 button{
     background-color: black;
@@ -24,7 +25,7 @@ button{
     font-size: 45px;
 
 }
-.container p{
+.container h4{
     color: gray;
     font-size: 20px;
     padding-bottom: 30px;
